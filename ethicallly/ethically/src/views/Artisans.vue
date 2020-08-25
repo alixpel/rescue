@@ -52,16 +52,25 @@ export default {
   }
 
   .artisans-groupe {
-    
+
+  }
+
+  .artisan-div {
+    width: 48vw;
   }
  }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
-    .artisans {
+  .artisans {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
+
+  .artisan-div {
+    width: 98vw;
+  }
+
   .artisans-div h4 {
     font-size: 3rem;
   }
